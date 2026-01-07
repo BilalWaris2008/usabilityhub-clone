@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     --primary-text-color: #183b56;
     --secondary-text-color: #577592;
@@ -17,12 +16,10 @@
     --padding-inline-section: 20px;
 }
 
-
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--primary-text-color);
 }
-
 
 h1 {
     font-size: 3rem;
@@ -54,7 +51,6 @@ ul {
 
 /* utility classes */
 
-
 .small-bold-text {
     font-size: 1rem;
     font-weight: 700;
@@ -64,7 +60,6 @@ ul {
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
-
 }
 
 .flex {
@@ -109,16 +104,12 @@ ul {
     color: var(--accent-color) !important;
 }
 
-
-
-
 /* top banner */
 
 .top-banner {
     background-image: url('./assests/asset\ 28.png');
     background-color: #4fb3d4;
     background-size: 300px;
-
 }
 
 .banner-text {
@@ -147,7 +138,6 @@ ul {
     gap: 40px;
 }
 
-
 /* header section */
 
 header {
@@ -175,8 +165,6 @@ header {
     width: 600px;
 }
 
-
-
 /* companies section */
 
 .companies-header {
@@ -190,12 +178,9 @@ header {
     flex-wrap: wrap;
 }
 
-
 .logo {
     height: 46px;
 }
-
-
 
 /* features section */
 
@@ -205,7 +190,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .features-header {
     text-align: center;
@@ -229,12 +213,12 @@ header {
     text-align: center;
 }
 
-.features-card img{
+.features-card img {
     width: 60px;
 }
 
-
 /* big feature section */
+
 .big-features-section {
     padding: 30px var(--padding-inline-section) 0;
 }
@@ -278,8 +262,6 @@ header {
     box-shadow: 0 0 10px #888;
 }
 
-
-
 .examples-card:nth-child(2) {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assests/asset\ 32.jpeg);
     ;
@@ -306,10 +288,9 @@ header {
     color: white;
 }
 
-
 /* cta section */
 
-.cta-section{
+.cta-section {
     background-color: #183b54;
     padding: 120px var(--padding-inline-section) 80px;
 }
@@ -319,45 +300,41 @@ header {
     gap: 30px;
 }
 
-
-.cta-section-container p{
+.cta-section-container p {
     margin-top: 20px;
     color: white;
 }
 
-
-.cta-section-container h2{
+.cta-section-container h2 {
     color: white;
 }
 
 /* footer */
 
-
-footer{
+footer {
     padding-block: 80px;
     background-color: #ebf2fa;
 }
 
-.link-column{
+.link-column {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
 
-.footer-container{
+.footer-container {
     align-items: flex-start;
     justify-content: space-between;
 }
 
-
 /* sub footer */
 
-.subfooter{
+.subfooter {
     background-color: #b9cde4;
     padding: var(--padding-inline-section);
 }
 
-.subfooter-container{
+.subfooter-container {
     justify-content: center;
     gap: 30px;
 }
