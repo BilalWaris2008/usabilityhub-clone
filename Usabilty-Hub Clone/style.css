@@ -125,6 +125,7 @@ ul {
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -369,8 +370,26 @@ footer {
         margin-right: 20px;
     }
 
+    .main-nav {
+        overflow: initial;
+    }
+
     .nav-links {
-        display: none;
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
     }
 
     .examples-area {
